@@ -1,0 +1,10 @@
+name: first workflow
+on: workflow_dispatch 
+jobs:
+  first_job:
+    runs-on: ubuntu_latest
+    steps:
+      - name: Print Greet Msg
+        run: echo "Hello CI/CD"
+      - name: Print End Msg
+        run: echo "Khatam tata Bye Bye"
